@@ -1,0 +1,72 @@
+/* Main Page Styling */
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+#name-jumbotron {
+  background-color: black;
+  text-align: left;
+  padding-top: 20em;
+}
+
+#name {
+  color: white;
+  font-size: 150%;
+  letter-spacing: 0.5em;
+}
+
+hr {
+  background-color: white;
+}
+
+#job-title {
+  color: grey;
+  text-align: center;
+}
+
+.typed {
+  color: white;
+  letter-spacing: 0.3rem;
+}
+
+#about {
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 0.3rem;
+}
+
+a:hover {
+  color: grey;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  padding: 0.5rem;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+.social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-media-list li {
+  display: inline-block;
+}
+
+.social-links {
+  color: white;
+  padding: 0.5rem;
+}
